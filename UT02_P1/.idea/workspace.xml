@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c3a6ad4-27a6-4a0d-b999-1efcd4d8b34c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Examples/ProcessThread/out/production/ProcessThread/com/jorge/processProgrammingServices/examples/Runnable1/TheardFirstR.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ProcessThread/out/production/ProcessThread/com/jorge/processProgrammingServices/examples/Runnable1/TheardFirstR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ProcessThread/src/com/jorge/processProgrammingServices/examples/Runnable1/TheardFirstR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ProcessThread/src/com/jorge/processProgrammingServices/examples/Runnable1/TheardFirstR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/src/com/jorge/processProgrammingServices/examples/one/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/out/production/untitled1/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/out/production/untitled1/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/out/production/untitled1/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WYxzpvbSFMztD99vVmtrK0qQQN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jorge.psp.practices.ut02.Main" />
+      <module name="UT02_P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jorge.psp.practices.ut02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jorge.psp.practices.ut02.Main" />
+      <module name="UT02_P1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="UT02_P1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="UT02_P1" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UT02 []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.UT02 []" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c3a6ad4-27a6-4a0d-b999-1efcd4d8b34c" name="Default Changelist" comment="" />
+      <created>1579340594359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579340594359</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="92" key="#Project_Structure" timestamp="1579341491893">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="92" key="#Project_Structure/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579341491893" />
+    <state x="91" y="0" width="1089" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579341605304">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="91" y="0" width="1089" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579341605304" />
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1579892421747">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579348413696" />
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1579892421747" />
+    <state x="366" y="172" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579341334646">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="366" y="172" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579341334646" />
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1579734545719">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579431753599" />
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1579734545719" />
+    <state width="1493" height="384" key="GridCell.Tab.0.bottom" timestamp="1579897560507">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="384" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
+    <state width="1493" height="384" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579897560507" />
+    <state width="1493" height="384" key="GridCell.Tab.0.center" timestamp="1579897560507">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="384" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
+    <state width="1493" height="384" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579897560507" />
+    <state width="1493" height="384" key="GridCell.Tab.0.left" timestamp="1579897560507">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="384" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
+    <state width="1493" height="384" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579897560507" />
+    <state width="1493" height="384" key="GridCell.Tab.0.right" timestamp="1579897560507">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="384" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
+    <state width="1493" height="384" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579897560507" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1579897559400">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579897559400" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1579897559400">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1579897559400" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1579897559400">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1579897559400" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1579897559400">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1579897559400" />
+    <state x="249" y="8" key="SettingsEditor" timestamp="1579341629690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="8" key="SettingsEditor/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579341629690" />
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1579898702657">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1579898702657" />
+    <state x="499" y="189" width="538" height="495" key="extract.method.dialog" timestamp="1579725766520">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="189" width="538" height="495" key="extract.method.dialog/0.0.1536.864@0.0.1536.864" timestamp="1579725766520" />
+    <state x="209" y="129" key="new project wizard" timestamp="1579431757690">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="129" key="new project wizard/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579431757690" />
+  </component>
+</project>
