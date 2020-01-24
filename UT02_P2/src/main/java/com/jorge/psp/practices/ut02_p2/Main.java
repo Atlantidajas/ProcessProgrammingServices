@@ -6,9 +6,14 @@
 
 package com.jorge.psp.practices.ut02_p2;
 
+import com.jorge.psp.practices.ut02_p2.models.GenerateRandomAlphabet;
+
 public class Main {
 
     public static void main( String[] args ) {
+
+        GenerateRandomAlphabet alphabet = new GenerateRandomAlphabet();
+        System.out.println( alphabet.getrANDOMAlphabet() );
 
     }
 }
