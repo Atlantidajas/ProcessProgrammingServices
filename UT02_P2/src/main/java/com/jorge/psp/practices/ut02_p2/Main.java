@@ -14,9 +14,6 @@ public class Main {
     public static void main( String[] args ) {
 
         CreatedWord createdWord = new CreatedWord( "Prueba" );
-
         createdWord.guess();
-
-
     }
 }

@@ -13,20 +13,14 @@ public class CreatedWord{
 
     private String word;
     private String lowerCaseWord;
-    private ArrayList<String> lettersWordSearched = new ArrayList<String>();
     private ArrayList<GenerateRandomAlphabet>generateRandomAlphabets = new ArrayList<GenerateRandomAlphabet>();
     private int coincidences = 0;
+
 
     public CreatedWord( String word ) {
         this.word = word;
         this.lowerCaseWord = word.toLowerCase();
 
-        // Descompongo palabra buscada e inicializo arrayList spellingWordSearched
-        char[] letters = this.lowerCaseWord.toCharArray();
-
-        for ( int i = 0; i < letters.length; i++ ){
-            lettersWordSearched.add( String.valueOf( letters[i] ) );
-        }
     }
 
     public void guess(){
@@ -45,12 +39,11 @@ public class CreatedWord{
 
             System.out.println( "Tamaño palabra:" + this.word.length() );
 
-            System.out.println( "Palabra para analizar:" + this.lowerCaseWord );
+            System.out.println( "Palabra para analizar:" + this.word );
 
             i++;
 
         }
     }
-
 }
 
