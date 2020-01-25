@@ -6,14 +6,17 @@
 
 package com.jorge.psp.practices.ut02_p2;
 
-import com.jorge.psp.practices.ut02_p2.models.GenerateRandomAlphabet;
+import com.jorge.psp.practices.ut02_p2.utils.CreatedWord;
+
 
 public class Main {
 
     public static void main( String[] args ) {
 
-        GenerateRandomAlphabet alphabet = new GenerateRandomAlphabet();
-        System.out.println( alphabet.getrANDOMAlphabet() );
+        CreatedWord createdWord = new CreatedWord( "Prueba" );
+
+        createdWord.guess();
+
 
     }
 }
