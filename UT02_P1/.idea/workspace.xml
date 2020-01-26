@@ -30,7 +30,14 @@
       <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/src/sample/sample.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/untitled1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jorge/psp/practices/ut02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jorge/psp/practices/ut02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jorge/psp/practices/ut02/view/Windows.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/models/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/models/Players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/GenerateRandomAlphabet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/GenerateRandomAlphabet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Documents/Programacion de servicios y procesos/UT02/Practicas/Práctica UT02_P1 (PSP)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -97,53 +104,6 @@
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.jorge.psp.practices.ut02.Main" />
       <module name="UT02_P1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="UT02_P1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="UT02_P1" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,26 +215,26 @@
     </state>
     <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579431753599" />
     <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1579900496482" />
-    <state width="1493" height="384" key="GridCell.Tab.0.bottom" timestamp="1579899122710">
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom" timestamp="1579990969205">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="384" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579899122710" />
-    <state width="1493" height="384" key="GridCell.Tab.0.center" timestamp="1579899122710">
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
+    <state width="1493" height="116" key="GridCell.Tab.0.center" timestamp="1579990969205">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="384" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579899122710" />
-    <state width="1493" height="384" key="GridCell.Tab.0.left" timestamp="1579899122710">
+    <state width="1493" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
+    <state width="1493" height="116" key="GridCell.Tab.0.left" timestamp="1579990969205">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="384" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579899122710" />
-    <state width="1493" height="384" key="GridCell.Tab.0.right" timestamp="1579899122710">
+    <state width="1493" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right" timestamp="1579990969205">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="384" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579899122710" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1579897559400">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
