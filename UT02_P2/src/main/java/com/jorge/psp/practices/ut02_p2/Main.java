@@ -6,6 +6,7 @@
 
 package com.jorge.psp.practices.ut02_p2;
 
+import com.jorge.psp.practices.ut02_p2.models.Players;
 import com.jorge.psp.practices.ut02_p2.utils.CreatedWord;
 
 
@@ -13,7 +14,17 @@ public class Main {
 
     public static void main( String[] args ) {
 
-        CreatedWord createdWord = new CreatedWord( "Prueba" );
-        createdWord.guess();
+        CreatedWord createdWord1 = new CreatedWord( "Prueba" );
+        new Thread( createdWord1 ).start();
+
+        CreatedWord createdWord2 = new CreatedWord( "Prueba" );
+        new Thread( createdWord2 ).start();
+
+        CreatedWord createdWord3 = new CreatedWord( "Prueba" );
+        new Thread( createdWord3 ).start();
+
+
+
+
     }
 }

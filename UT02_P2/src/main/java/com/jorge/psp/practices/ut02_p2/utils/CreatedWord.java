@@ -6,10 +6,11 @@
 
 package com.jorge.psp.practices.ut02_p2.utils;
 
+import com.jorge.psp.practices.ut02_p2.models.Players;
 import org.apache.commons.lang3.StringUtils;
 import java.util.ArrayList;
 
-public class CreatedWord{
+public class CreatedWord implements Runnable{
 
     private String word;
     private String lowerCaseWord;
@@ -23,7 +24,7 @@ public class CreatedWord{
 
     }
 
-    public void guess(){
+    public void guess( int guessPlayer ){
 
         int i = 0;
 
@@ -33,6 +34,8 @@ public class CreatedWord{
 
             this.coincidences += StringUtils.countMatches( this.lowerCaseWord, generateRandomAlphabets.get( i ).getRandonAlphabet() );
 
+            System.out.println("Jugador : " + guessPlayer );
+
             System.out.println( "Letra aleatoria: " + generateRandomAlphabets.get( i ).getRandonAlphabet() );
 
             System.out.println( "Coincidencias:" + this.coincidences );
@@ -41,8 +44,21 @@ public class CreatedWord{
 
             System.out.println( "Palabra para analizar:" + this.word );
 
-            i++;
+            if( this.coincidences == this.word.length() ){
+                System.out.println("El juego a terminado");
+                System.out.println( "El ganador es jugador: *******" + guessPlayer + "*********" );
 
+            }
+            i++;
+        }
+    }
+
+    public void run() {
+
+        for( int i = 1; i < 4; i++ ){
+
+            Players players = new Players( i );
+            guess( players.getNumberPlayer() );//<-- Jugador ganador
         }
     }
 }
