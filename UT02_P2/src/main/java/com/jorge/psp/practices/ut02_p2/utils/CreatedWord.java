@@ -58,7 +58,8 @@ public class CreatedWord implements Runnable{
         for( int i = 1; i < 4; i++ ){
 
             Players players = new Players( i );
-            guess( players.getNumberPlayer() );//<-- Jugador ganador
+            guess( players.getNumberPlayer() );//<-- Guess player
+
         }
     }
 }
