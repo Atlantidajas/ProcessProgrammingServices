@@ -13,7 +13,8 @@ public class Players extends Thread{
     private int numberPlayer;
     private String pickUpLetter;
     private String wordPlayer;
-    private int coincidencesPlayer = 0;
+    private int coincidencesPlayer;
+    GenerateRandomAlphabet gRa = new GenerateRandomAlphabet();
 
     public Players( int numberPlayer, String wordPlayer ) {
         this.numberPlayer = numberPlayer;
@@ -22,17 +23,20 @@ public class Players extends Thread{
 
     public void run() {
 
-        GenerateRandomAlphabet gRa = new GenerateRandomAlphabet();
 
-        for( int i = 0; i < 3; i++ ){
+        int j = 0;
 
             this.pickUpLetter = gRa.getRandonAlphabet();
-
-            int j = 0;
 
             while( coincidencesPlayer != this.wordPlayer.length() ) {
 
                 this.coincidencesPlayer += this.coincidencesPlayer;
+
+                System.out.println( "-----------------------------------");
+                System.out.println( "| Jugador : " + this.numberPlayer + " |" );
+                System.out.println( "    - Letra : " + this.pickUpLetter );
+                System.out.println( "    - Palabra a completar: " + this.wordPlayer );
+                System.out.println( "    - Coincidencias hasta el momento: " + this.coincidencesPlayer );
 
                 j++;
 
@@ -46,5 +50,4 @@ public class Players extends Thread{
 
         }
 
-    }
 }

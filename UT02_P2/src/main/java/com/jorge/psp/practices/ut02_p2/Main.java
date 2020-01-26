@@ -20,9 +20,9 @@ public class Main {
 
         CreatedWord createdWord = new CreatedWord( "Prueba" );
 
-        Players player1 = new Players( 1, createdWord.getLowerCaseWord() );
-        Players player2 = new Players( 2, createdWord.getLowerCaseWord() );
-        Players player3 = new Players( 3, createdWord.getLowerCaseWord() );
+        Players player1 = new Players( 0, createdWord.getLowerCaseWord() );
+        Players player2 = new Players( 1, createdWord.getLowerCaseWord() );
+        Players player3 = new Players( 2, createdWord.getLowerCaseWord() );
 
         player1.start();
         player2.start();
