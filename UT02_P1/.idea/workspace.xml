@@ -30,14 +30,7 @@
       <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/src/sample/sample.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/untitled1/untitled1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jorge/psp/practices/ut02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jorge/psp/practices/ut02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jorge/psp/practices/ut02/view/Windows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/models/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/models/Players.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/src/main/java/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/CreatedWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/GenerateRandomAlphabet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UT02_P2/target/classes/com/jorge/psp/practices/ut02_p2/utils/GenerateRandomAlphabet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jorge/psp/practices/ut02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jorge/psp/practices/ut02/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UT02_P2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -210,31 +203,31 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="366" y="172" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579341334646" />
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1579900496482">
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1580073611230">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579431753599" />
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1579900496482" />
-    <state width="1493" height="116" key="GridCell.Tab.0.bottom" timestamp="1579990969205">
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1580073611230" />
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom" timestamp="1580073621565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
-    <state width="1493" height="116" key="GridCell.Tab.0.center" timestamp="1579990969205">
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580073621565" />
+    <state width="1493" height="116" key="GridCell.Tab.0.center" timestamp="1580073621565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
-    <state width="1493" height="116" key="GridCell.Tab.0.left" timestamp="1579990969205">
+    <state width="1493" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580073621565" />
+    <state width="1493" height="116" key="GridCell.Tab.0.left" timestamp="1580073621565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
-    <state width="1493" height="116" key="GridCell.Tab.0.right" timestamp="1579990969205">
+    <state width="1493" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580073621565" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right" timestamp="1580073621565">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="384" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1280.720@0.0.1536.864" timestamp="1579349524948" />
-    <state width="1493" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579990969205" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580073621565" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1579897559400">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

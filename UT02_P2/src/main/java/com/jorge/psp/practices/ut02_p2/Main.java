@@ -19,6 +19,11 @@ public class Main {
         Players players2 = new Players( 1, createdWord.getLowerCaseWord()  );
         Players players3 = new Players( 2, createdWord.getLowerCaseWord()  );
 
+
+        players1.setPriority( Thread.MAX_PRIORITY );
+        players2.setPriority( Thread.MAX_PRIORITY );
+        players3.setPriority( Thread.MAX_PRIORITY );
+
         players1.start();
         players2.start();
         players3.start();

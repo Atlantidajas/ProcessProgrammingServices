@@ -23,22 +23,25 @@ public class Players extends Thread{
 
     public void run() {
 
-        GenerateRandomAlphabet gRa = new GenerateRandomAlphabet();
-        this.pickUpLetter = gRa.getRandonAlphabet();
-        this.coincidencesPlayer += StringUtils.countMatches( this.wordPlayer, this.pickUpLetter );
+        try {
+            Thread.sleep(800);//<- 1sg
 
-        System.out.println( "-----------------------------------");
-        System.out.println( "| Jugador : " + this.numberPlayer + " |" );
-        System.out.println( "    - Letra : " + this.pickUpLetter );
-        System.out.println( "    - Palabra a completar: " + this.wordPlayer );
-        System.out.println( "    - Coincidencias hasta el momento: " + this.coincidencesPlayer );
+            GenerateRandomAlphabet gRa = new GenerateRandomAlphabet();
+            this.pickUpLetter = gRa.getRandonAlphabet();
+            this.coincidencesPlayer += StringUtils.countMatches(this.wordPlayer, this.pickUpLetter);
 
-        if ( this.coincidencesPlayer == this.wordPlayer.length() ){
-            System.out.println( "El ganador es el jugador: " + this.numberPlayer );
-            return;
-        }
-        else{
-            this.run();
+            System.out.println("| Jugador : " + this.numberPlayer + " |");
+            System.out.println("    - Letra : " + this.pickUpLetter);
+            System.out.println("    - Palabra a completar: " + this.wordPlayer);
+            System.out.println("    - Coincidencias hasta el momento: " + this.coincidencesPlayer);
+
+            if (this.coincidencesPlayer == this.wordPlayer.length()) {
+                System.out.println("El ganador es el jugador: " + this.numberPlayer);
+                return;
+            } else {
+                this.run();
+            }
+        } catch (InterruptedException e) {
         }
     }
 }
