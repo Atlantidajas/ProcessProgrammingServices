@@ -6,8 +6,6 @@
 
 package com.jorge.psp.practices.ut02_p2.utils;
 
-
-
 public class GenerateRandomAlphabet{
 
     private int numRandon;
@@ -18,13 +16,10 @@ public class GenerateRandomAlphabet{
             "k", "l", "m","N", "ñ", "o","p","q","r","s","t","u","v","w", "x","y","z"};
 
     public GenerateRandomAlphabet() {
-
         this.numRandon = ( int ) Math.round( Math.random() * 26 );
     }
 
     public String getRandonAlphabet() {
         return ALPHABET[this.numRandon];
     }
-
-
 }
