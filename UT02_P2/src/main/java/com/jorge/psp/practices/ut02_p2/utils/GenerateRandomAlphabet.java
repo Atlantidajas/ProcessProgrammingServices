@@ -22,7 +22,7 @@ public class GenerateRandomAlphabet{
         this.numRandon = ( int ) Math.round( Math.random() * 26 );
     }
 
-    protected String getRandonAlphabet() {
+    public String getRandonAlphabet() {
         return ALPHABET[this.numRandon];
     }
 

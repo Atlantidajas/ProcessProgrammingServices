@@ -8,23 +8,25 @@ package com.jorge.psp.practices.ut02_p2;
 
 import com.jorge.psp.practices.ut02_p2.models.Players;
 import com.jorge.psp.practices.ut02_p2.utils.CreatedWord;
+import com.jorge.psp.practices.ut02_p2.utils.GenerateRandomAlphabet;
+
+import java.util.ArrayList;
 
 
 public class Main {
 
     public static void main( String[] args ) {
 
-        CreatedWord createdWord1 = new CreatedWord( "Prueba" );
-        new Thread( createdWord1 ).start();
 
-        CreatedWord createdWord2 = new CreatedWord( "Prueba" );
-        new Thread( createdWord2 ).start();
+        CreatedWord createdWord = new CreatedWord( "Prueba" );
 
-        CreatedWord createdWord3 = new CreatedWord( "Prueba" );
-        new Thread( createdWord3 ).start();
+        Players player1 = new Players( 1, createdWord.getLowerCaseWord() );
+        Players player2 = new Players( 2, createdWord.getLowerCaseWord() );
+        Players player3 = new Players( 3, createdWord.getLowerCaseWord() );
 
-
-
+        player1.start();
+        player2.start();
+        player3.start();
 
     }
 }

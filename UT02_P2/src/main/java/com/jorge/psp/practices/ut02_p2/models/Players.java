@@ -6,29 +6,45 @@
 
 package com.jorge.psp.practices.ut02_p2.models;
 
-public class Players {
+import com.jorge.psp.practices.ut02_p2.utils.GenerateRandomAlphabet;
+
+public class Players extends Thread{
 
     private int numberPlayer;
     private String pickUpLetter;
-    private boolean status = false;
+    private String wordPlayer;
+    private int coincidencesPlayer = 0;
 
-
-    public Players( int numberPlayer ) {
+    public Players( int numberPlayer, String wordPlayer ) {
         this.numberPlayer = numberPlayer;
+        this.wordPlayer = wordPlayer;
     }
 
-    public int getNumberPlayer() {
-        return numberPlayer;
-    }
+    public void run() {
 
-    public boolean pickUpLetter( String pickUpLetter ) {
-        this.status = true;
-        System.out.println("Jugador: " + this.numberPlayer + " coge letra :" + this.pickUpLetter);
-        return this.status;
-    }
+        GenerateRandomAlphabet gRa = new GenerateRandomAlphabet();
 
-    public boolean cambioTurno(){
-        this.status = false;
-        return this.status;
+        for( int i = 0; i < 3; i++ ){
+
+            this.pickUpLetter = gRa.getRandonAlphabet();
+
+            int j = 0;
+
+            while( coincidencesPlayer != this.wordPlayer.length() ) {
+
+                this.coincidencesPlayer += this.coincidencesPlayer;
+
+                j++;
+
+                if ( this.coincidencesPlayer == this.wordPlayer.length() ){
+
+                    System.out.println( "El ganador es el jugador: " + this.numberPlayer );
+                    return;
+                }
+
+            }
+
+        }
+
     }
 }
