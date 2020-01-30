@@ -15,6 +15,7 @@ public class Players extends Thread{
     private String pickUpLetter;
     private String wordPlayer;
     private int coincidencesPlayer;
+    private int rollDice;
 
     public Players( int numberPlayer, String wordPlayer ) {
         this.numberPlayer = numberPlayer;
@@ -23,25 +24,39 @@ public class Players extends Thread{
 
     public void run() {
 
-        try {
-            Thread.sleep(800);//<- 1sg
+        int i = 1;
+        while( isAlive() ) {//<-- Mientras el hilo está vivo
 
             GenerateRandomAlphabet gRa = new GenerateRandomAlphabet();
             this.pickUpLetter = gRa.getRandonAlphabet();
-            this.coincidencesPlayer += StringUtils.countMatches(this.wordPlayer, this.pickUpLetter);
+            this.coincidencesPlayer += StringUtils.countMatches( this.wordPlayer, this.pickUpLetter );
 
             System.out.println("| Jugador : " + this.numberPlayer + " |");
             System.out.println("    - Letra : " + this.pickUpLetter);
             System.out.println("    - Palabra a completar: " + this.wordPlayer);
             System.out.println("    - Coincidencias hasta el momento: " + this.coincidencesPlayer);
 
-            if (this.coincidencesPlayer == this.wordPlayer.length()) {
-                System.out.println("El ganador es el jugador: " + this.numberPlayer);
+            if ( this.coincidencesPlayer == this.wordPlayer.length() ) {
+                System.out.println("Tiradas ------------------------------->:" + i );
+                this.rollDice = i;
+                interrupt();//<-- Paro el Hilo (Interumpo)
                 return;
-            } else {
-                this.run();
             }
-        } catch (InterruptedException e) {
+            i++;
+            try {
+                Thread.sleep(200);
+                yield();
+            } catch (InterruptedException e) {}
+
+
         }
+    }
+
+    public int getRollDice(){
+        return this.rollDice;
+    }
+
+    public int getNumberPlayer() {
+        return numberPlayer;
     }
 }
