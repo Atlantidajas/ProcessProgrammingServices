@@ -1,14 +1,19 @@
-import java.io.*;
-import java.net.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+
+
 public class ClienteChat extends JFrame implements ActionListener, Runnable {
 
     private static final long serialVersionUID = 1L;
     Socket socket = null;
 
-    DataInputStream fentrada; // Para leer los mensaje de todos
-    DataOutputStream fsalida; // Para escribir los mensajes del cliente
+    DataInputStream fentrada;
+    DataOutputStream fsalida;
 
     String nombre;
     static JTextField mensaje = new JTextField();
@@ -18,8 +23,7 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
     JButton desconectar = new JButton("Salir");
     boolean repetir = true;
 
-    //En el constructor se prepara la pantalla. Se escribe el socket creado y el nombre del Cliente de Chat:
-    // Constructor
+
     public ClienteChat(Socket socket, String nombre) {
 
         super("Conexión del Cliente Chat: " + nombre);
@@ -47,10 +51,6 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
         this.socket = socket;
         this.nombre = nombre;
 
-
-        /*Se crean los flujos de entrada y salida. Se escribe en el flujo de salida un mensaje indicando que el usuario ha
-        entrado en el chat. Este mensaje lo recibe el hilo (HiloServidor) y se lo manda a todos los clientes conectados: */
-
         try {
             fentrada = new DataInputStream(socket.getInputStream());
             fsalida = new DataOutputStream(socket.getOutputStream());
@@ -62,11 +62,8 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
             System.exit(0);
         }
 
-    } // constructor
+    }
 
-    //Cuando se pulsa el bóton Enviar se envía al flujo de salida el mensaje que el cliente ha escrito:
-
-    // Definimos las acciones cuando pulsamos los botones
     public void actionPerformed(ActionEvent e) {
         // Se pulta el boton de Enviar
         if (e.getSource() == boton) {
@@ -79,10 +76,6 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
             }
         }
 
-        /* Cuando se pulsa el bóton Salir se envía primero un mensaje indicando que el usuario abandona el chat y a
-        continuación un asterisco indicando que el usuario va a salir del chat:
-        Se pulsa el boton de Desconectar*/
-
         if (e.getSource() == desconectar) {
             String texto = " > Abandona el Chat ... " + nombre;
             try {
@@ -94,42 +87,32 @@ public class ClienteChat extends JFrame implements ActionListener, Runnable {
             }
         }
 
-    } // actionPerformed
-
-
-    /*Dentro del método run(), el cliente lee lo que el hilo le manda (los mensajes de chat) para mostrarlo en el
-    TextArea. Esto se realiza en un proceso repetitivo que termina cuando el usuario pulsa el botón Salir, que
-    cambiará el valor de la variable repetir a false para que finalice el bucle: */
+    }
 
     public void run() {
         String texto = "";
 
-        while(repetir) {
+        while (repetir) {
             try {
                 texto = fentrada.readUTF(); // Leer mensajes
                 textarea1.setText(texto); // Visualizar los mensajes
             } catch (IOException e) {
-                // Este error sale cuando el servidor se cierra
                 JOptionPane.showMessageDialog(null, "Imposible conectar con el Servidor\n"
                                 + e.getMessage(), "<<Mensaje de Error:2>>",
                         JOptionPane.ERROR_MESSAGE);
                 repetir = false; // Salimos del bucle
             }
-        } // while
+        }
 
         try {
-
             socket.close(); // Cerrar socket
             System.exit(0);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-    } // ejecutar
+    }
 
-
-    //En la función main() se pide el nombre del usuario, se realiza la conexión al servidor, se crea un objeto
-    // ClienteChat, se muestra la pantalla y se ejecuta el método run():
 
     public static void main(String[] args) {
         int puerto = 5050;
